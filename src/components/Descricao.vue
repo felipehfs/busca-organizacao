@@ -1,7 +1,7 @@
 <template>
   <div v-if="org.name !== undefined" class="container">
       <h2>Bio da organização</h2>
-        <a :href="org.repos_url" :title="org.name">
+        <a :href="org.html_url" :title="org.name">
           <img :src="org.avatar_url" :alt="org.company" class="avatar">
         </a>
       <ul>
